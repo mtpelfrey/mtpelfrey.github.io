@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Mason Pelfrey</title>
-    <link>/post/</link>
-      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://masonpelfrey.com/post/</link>
+      <atom:link href="https://masonpelfrey.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 19:19:50 -0700</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
-      <link>/post/</link>
+      <link>https://masonpelfrey.com/post/</link>
     </image>
     
     <item>
       <title>Web Frameworks</title>
-      <link>/post/web-frameworks/</link>
+      <link>https://masonpelfrey.com/post/web-frameworks/</link>
       <pubDate>Sun, 01 Mar 2020 19:19:50 -0700</pubDate>
-      <guid>/post/web-frameworks/</guid>
+      <guid>https://masonpelfrey.com/post/web-frameworks/</guid>
       <description>&lt;p&gt;Test&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Raspberry Pi Security Camera</title>
-      <link>/post/raspberry-pi-security-camera/</link>
+      <link>https://masonpelfrey.com/post/raspberry-pi-security-camera/</link>
       <pubDate>Wed, 31 Jan 2018 00:00:00 -0700</pubDate>
-      <guid>/post/raspberry-pi-security-camera/</guid>
+      <guid>https://masonpelfrey.com/post/raspberry-pi-security-camera/</guid>
       <description>&lt;p&gt;Last holiday season I decided I needed a security camera to watch my front door which I could access remotely. I spent several consecutive days before Christmas at a friend’s house a 30 minute drive away from my apartment. Being a gift shopping procrastinator, I had Amazon delivering packages up until December 24. I didn’t want packages hanging out on the porch for several days at a time, so I did a bit of research to find a security camera system that would notify me when a package arrived.&lt;/p&gt;
 &lt;p&gt;Over the last several years, I’ve acquired quite the collection of Raspberry Pi boards and peripherals and figured the cheapest way to do what I wanted to do was to use that. There were two components to the the system I eventually settled on: the Raspberry Pi with a camera module and the method by which I could access my home network remotely and hence the camera feed.&lt;/p&gt;
 &lt;p&gt;The camera set-up was actually the easy part. I downloaded an open source operating system called MotionEyeOS, available on github here,  and installed it on my Pi. MotionEyeOS is fairly user friendly and very customizable. It has a browser interface which you access by typing the local IP address of the Pi into a browser connected to the network. I was able to configure it so that every time it detected motion it would send me an email with a photo taken 10 seconds after enough pixels changed in the image to trigger the detector. I think about half the emails I received were of changing shadows and not of package deliveries, but I think that could be remedied by fiddling with the sensitivity settings. Double sided tape was used to attach the Pi to the interior side of the door and the camera to the outside of the door.  Flex cable connected the Pi to the camera and did not affect the closing of the door at all. The most inelegant part of the whole system was the power cord, which I had to run across the floor and up the wall.&lt;/p&gt;
@@ -50,10 +50,10 @@
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/raspberry-pi-security-camera/door_huf759150df56dc25bfc9bf4e247df3498_81553_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://masonpelfrey.com/post/raspberry-pi-security-camera/door_huf759150df56dc25bfc9bf4e247df3498_81553_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
 
 
-  &lt;img data-src=&#34;/post/raspberry-pi-security-camera/door_huf759150df56dc25bfc9bf4e247df3498_81553_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;768&#34; height=&#34;1024&#34;&gt;
+  &lt;img data-src=&#34;https://masonpelfrey.com/post/raspberry-pi-security-camera/door_huf759150df56dc25bfc9bf4e247df3498_81553_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;768&#34; height=&#34;1024&#34;&gt;
 &lt;/a&gt;
 
 
@@ -82,10 +82,10 @@
 &lt;figure&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/raspberry-pi-security-camera/camera_hu1e305faa135c8e451f8cbd53f5825eab_41021_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://masonpelfrey.com/post/raspberry-pi-security-camera/camera_hu1e305faa135c8e451f8cbd53f5825eab_41021_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
 
 
-  &lt;img data-src=&#34;/post/raspberry-pi-security-camera/camera_hu1e305faa135c8e451f8cbd53f5825eab_41021_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;768&#34; height=&#34;1024&#34;&gt;
+  &lt;img data-src=&#34;https://masonpelfrey.com/post/raspberry-pi-security-camera/camera_hu1e305faa135c8e451f8cbd53f5825eab_41021_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;768&#34; height=&#34;1024&#34;&gt;
 &lt;/a&gt;
 
 

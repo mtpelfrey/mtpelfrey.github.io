@@ -31,7 +31,7 @@
   <meta name="description" content="Last holiday season I decided I needed a security camera to watch my front door which I could access remotely. I spent several consecutive days before Christmas at a friend’s house a 30 minute drive away from my apartment. Being a gift shopping procrastinator, I had Amazon delivering packages up until December 24. I didn’t want packages hanging out on the porch for several days at a time, so I did a bit of research to find a security camera system that would notify me when a package arrived.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/post/raspberry-pi-security-camera/">
+  <link rel="alternate" hreflang="en-us" href="https://masonpelfrey.com/post/raspberry-pi-security-camera/">
 
   
 
@@ -209,6 +209,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113371269-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-113371269-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -218,7 +256,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hub55869e431d2154e6534fdd41c476c17_26521_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hub55869e431d2154e6534fdd41c476c17_26521_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/post/raspberry-pi-security-camera/">
+  <link rel="canonical" href="https://masonpelfrey.com/post/raspberry-pi-security-camera/">
 
   
   
@@ -231,10 +269,10 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Mason Pelfrey">
-  <meta property="og:url" content="/post/raspberry-pi-security-camera/">
+  <meta property="og:url" content="https://masonpelfrey.com/post/raspberry-pi-security-camera/">
   <meta property="og:title" content="Raspberry Pi Security Camera | Mason Pelfrey">
-  <meta property="og:description" content="Last holiday season I decided I needed a security camera to watch my front door which I could access remotely. I spent several consecutive days before Christmas at a friend’s house a 30 minute drive away from my apartment. Being a gift shopping procrastinator, I had Amazon delivering packages up until December 24. I didn’t want packages hanging out on the porch for several days at a time, so I did a bit of research to find a security camera system that would notify me when a package arrived."><meta property="og:image" content="/post/raspberry-pi-security-camera/featured.jpg">
-  <meta property="twitter:image" content="/post/raspberry-pi-security-camera/featured.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Last holiday season I decided I needed a security camera to watch my front door which I could access remotely. I spent several consecutive days before Christmas at a friend’s house a 30 minute drive away from my apartment. Being a gift shopping procrastinator, I had Amazon delivering packages up until December 24. I didn’t want packages hanging out on the porch for several days at a time, so I did a bit of research to find a security camera system that would notify me when a package arrived."><meta property="og:image" content="https://masonpelfrey.com/post/raspberry-pi-security-camera/featured.jpg">
+  <meta property="twitter:image" content="https://masonpelfrey.com/post/raspberry-pi-security-camera/featured.jpg"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2018-01-31T00:00:00-07:00">
@@ -263,12 +301,12 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/post/raspberry-pi-security-camera/"
+    "@id": "https://masonpelfrey.com/post/raspberry-pi-security-camera/"
   },
   "headline": "Raspberry Pi Security Camera",
   
   "image": [
-    "/post/raspberry-pi-security-camera/featured.jpg"
+    "https://masonpelfrey.com/post/raspberry-pi-security-camera/featured.jpg"
   ],
   
   "datePublished": "2018-01-31T00:00:00-07:00",
@@ -284,7 +322,7 @@
     "name": "Mason Pelfrey",
     "logo": {
       "@type": "ImageObject",
-      "url": "/images/icon_hub55869e431d2154e6534fdd41c476c17_26521_192x192_fill_lanczos_center_2.png"
+      "url": "https://masonpelfrey.com/images/icon_hub55869e431d2154e6534fdd41c476c17_26521_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "Last holiday season I decided I needed a security camera to watch my front door which I could access remotely. I spent several consecutive days before Christmas at a friend’s house a 30 minute drive away from my apartment. Being a gift shopping procrastinator, I had Amazon delivering packages up until December 24. I didn’t want packages hanging out on the porch for several days at a time, so I did a bit of research to find a security camera system that would notify me when a package arrived."
@@ -630,7 +668,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/post/raspberry-pi-security-camera/&amp;text=Raspberry%20Pi%20Security%20Camera" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://masonpelfrey.com/post/raspberry-pi-security-camera/&amp;text=Raspberry%20Pi%20Security%20Camera" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -643,7 +681,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/post/raspberry-pi-security-camera/&amp;t=Raspberry%20Pi%20Security%20Camera" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://masonpelfrey.com/post/raspberry-pi-security-camera/&amp;t=Raspberry%20Pi%20Security%20Camera" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -656,7 +694,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Raspberry%20Pi%20Security%20Camera&amp;body=/post/raspberry-pi-security-camera/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Raspberry%20Pi%20Security%20Camera&amp;body=https://masonpelfrey.com/post/raspberry-pi-security-camera/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -669,7 +707,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/post/raspberry-pi-security-camera/&amp;title=Raspberry%20Pi%20Security%20Camera" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://masonpelfrey.com/post/raspberry-pi-security-camera/&amp;title=Raspberry%20Pi%20Security%20Camera" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -709,7 +747,7 @@
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/">Mason Pelfrey</a></h5>
+      <h5 class="card-title"><a href="https://masonpelfrey.com/">Mason Pelfrey</a></h5>
       <h6 class="card-subtitle">Data Scientist</h6>
       <p class="card-text">I’m a data scientist living in Boulder, CO. You can find my professional LinkedIn page here.</p>
       <ul class="network-icon" aria-hidden="true">
