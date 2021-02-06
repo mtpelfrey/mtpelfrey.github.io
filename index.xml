@@ -18,7 +18,7 @@
       <pubDate>Sun, 01 Mar 2020 19:19:50 -0700</pubDate>
       <guid>https://masonpelfrey.com/post/web-frameworks/</guid>
       <description>&lt;p&gt;The choices for creating and deploying a website have exploded in the years since the author deployed his first website in high school circa 2005.&lt;/p&gt;
-&lt;h3 id=&#34;wordpress&#34;&gt;Wordpress&lt;/h3&gt;
+&lt;h2 id=&#34;wordpress&#34;&gt;Wordpress&lt;/h2&gt;
 &lt;p&gt;I maintain a Wordpress site hosted on AWS Lightsail. I’m not the biggest fan of Wordpress, but it is probably the option requiring the least technical expertise . . . if you want to do do no modification to the default layouts and themes. I found modifying the site to be the most unintuitive. I also don’t really know anything about PHP.&lt;/p&gt;
 &lt;h2 id=&#34;django-and-django-cms&#34;&gt;Django and Django CMS&lt;/h2&gt;
 &lt;p&gt;I also maintain a website using Django and Django CMS. I wanted a framework over which I had complete control, but I could still hand over to the client who could add content with no technical knowledge. I like Python, and this was a good learning experience, but the site is a bit heavy, and only contains static content. I think the client would have been better served with Hugo, the static site generator. They would have had to learn Markdown, but I think I could have found a free hosting solution.&lt;/p&gt;
